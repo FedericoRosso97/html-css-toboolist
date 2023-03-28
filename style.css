@@ -4,8 +4,13 @@
 header{
     background-color: white;
 }
+img{
+    width: 100px;
+    vertical-align: middle;
+}
 #titolo{
-display: inline-block;
+    width: 1000px;
+    display: inline-block;
 }
 main{
     margin:60px 120px ;
@@ -19,14 +24,16 @@ nav{
     border-radius: 5px;
 }
 .Add{
-    width:100px ;
-    height:30px ;
-    text-align: center;
-    vertical-align: middle;
+   
     display: inline-block;
+    width: 120px;
+    height: 40px;
     border:1px solid black;
-    border-radius: 5px;
+    border-radius: 5%;
+    text-align: center; 
+    vertical-align: middle;
 }
+
 
 #task{
     color: white;
@@ -40,4 +47,14 @@ nav{
 }
 section{
     margin-left: 50px;
+}
+p{
+    font-size: larger;
+}
+.bottone{
+    color: white;
+    border-radius: 25%;
+}
+#bottone_1{
+    background-color: blue;
 }
